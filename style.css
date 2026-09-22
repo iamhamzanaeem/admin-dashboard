@@ -175,12 +175,11 @@
     }
 
 .projects-title{
-    text-align: center;
     padding-top: 40px;
 }  
 .projects-content{
     display: grid;
-       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-template-rows: auto;
     gap: 40px;
     justify-items: center;
@@ -191,7 +190,7 @@
     background-color: #fff;
     width: 250px;
     height: 170px;
-    padding: 20px;
+    padding: 20px 10px;
     border-radius: 8px;
     border-left: 5px solid #facc15;
     font-size: 15px;
@@ -201,4 +200,72 @@
 }
 .icons{
     text-align: right;
+}
+
+/* annoucnement and trends section--------------------- */
+.announce-and-trend{
+    grid-column: 2 / 3;
+}
+.anouncement-title{
+    padding-top: 40px;
+}  
+.announcement-content{
+    padding: 40px;
+    
+}
+.announcement{
+    background-color: #fff;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    border-radius: 8px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+p{
+    color: #978686;
+}
+.trending{
+    padding: 40px;
+}
+.trending-profile{
+    background-color: #fff;
+    width: 300px;
+    height: 50px;
+    padding: 20px;
+    font-size: 15px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.trending-profile-pic img{
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+}
+.tegan{
+    background-color: #e0f2fe;
+    border-radius: 50%;
+}
+.morgan{
+    background-color: #facc15;
+    border-radius: 50%;
+}
+.kendall{
+    background-color: #fda4af;
+    border-radius: 50%;
+}
+.alex{
+    background-color: #e3b0b6;
+    border-radius: 50%;
+}
+.trending-profile-information{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    color: #978686;
 }
