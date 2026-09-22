@@ -10,7 +10,7 @@
 
 .admin-dashboard {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 200px 4fr;
     height: 100vh;
 }
 
@@ -179,12 +179,11 @@
 }  
 .projects-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows: auto;
     gap: 40px;
     justify-items: center;
     align-items: center;
-    padding: 40px 0;
 }
 .cards{
     background-color: #fff;
@@ -207,10 +206,11 @@
     grid-column: 2 / 3;
 }
 .anouncement-title{
+    padding-left: 40px;
     padding-top: 40px;
 }  
 .announcement-content{
-    padding: 40px;
+    padding:  0 40px ;
     
 }
 .announcement{
